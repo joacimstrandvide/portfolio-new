@@ -1,0 +1,24 @@
+:root {
+    --text: hsl(206.25, 100%, 6.27%);
+    --bg: hsl(202.5, 14.81%, 89.41%);
+    --btn: hsl(203.46, 55.19%, 52.75%);
+}
+
+/* @media (prefers-color-scheme: dark) {
+    :root {
+        --bg: hsl(206.25, 100%, 6.27%);
+        --text: hsl(202.5, 14.81%, 89.41%);
+    }
+} */
+
+/* Basic page styling */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: var(--bg);
+}
