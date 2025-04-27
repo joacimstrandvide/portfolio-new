@@ -57,7 +57,7 @@ function Projects() {
                     </ProjectContent>
                 </Project>
                 {/* Project 3 */}
-                <Project>
+                {/* <Project>
                     <ProjectContent>
                         <ProjectImage
                             onClick={() => openModal('/images/19.webp')}
@@ -86,7 +86,7 @@ function Projects() {
                             </ProjectLinks>
                         </ProjectDetails>
                     </ProjectContent>
-                </Project>
+                </Project> */}
                 {/* Project 2 */}
                 <Project>
                     <ProjectContent>

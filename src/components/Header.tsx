@@ -4,141 +4,110 @@ import { MdEmail } from 'react-icons/md'
 
 function Header() {
     return (
-        <>
-            <HeaderMain
-                style={{
-                    backgroundImage: `url('/images/background.svg')`
-                }}
-            >
-                <HeaderText>
-                    <HeaderName>Joacim Strandvide</HeaderName>
-                    <HeaderTitle>Front-End Developer</HeaderTitle>
-                    <HeaderLinks>
-                        <a
-                            href="https://github.com/joacimstrandvide"
-                            target="blank"
-                            rel="noopener noreferrer"
-                        >
-                            <FaGithub /> Github
-                        </a>
-                        <a href="mailto:contact@strandvide.se">
-                            <MdEmail /> Email
-                        </a>
-                        <a
-                            href="https://www.linkedin.com/in/joacim-strandvide/"
-                            target="blank"
-                            rel="noopener noreferrer"
-                        >
-                            <FaLinkedin /> Linkedin
-                        </a>
-                    </HeaderLinks>
-                </HeaderText>
-            </HeaderMain>
-        </>
+        <HeaderBar>
+            <HeaderText>
+                <HeaderName>Joacim Strandvide</HeaderName>
+                <HeaderTitle>Front-End Developer</HeaderTitle>
+            </HeaderText>
+            <HeaderLinks>
+                <a
+                    href="https://github.com/joacimstrandvide"
+                    target="blank"
+                    rel="noopener noreferrer"
+                >
+                    <FaGithub /> Github
+                </a>
+                <a href="mailto:contact@strandvide.se">
+                    <MdEmail /> Email
+                </a>
+                <a
+                    href="https://www.linkedin.com/in/joacim-strandvide/"
+                    target="blank"
+                    rel="noopener noreferrer"
+                >
+                    <FaLinkedin /> Linkedin
+                </a>
+            </HeaderLinks>
+        </HeaderBar>
     )
 }
 
 export default Header
 
-const HeaderMain = styled.section`
-    padding: 2rem;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-
-    svg {
-        font-size: 1.1rem;
-    }
+const HeaderBar = styled.header`
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #1a1a1a;
+    color: #fff;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 
     @media (max-width: 640px) {
         flex-direction: column;
-        text-align: center;
-        height: 60vh;
+        align-items: center;
         padding: 1rem;
-    }
-
-    @media (min-width: 1800px) {
-        svg {
-            font-size: 2rem;
-        }
     }
 `
 
-const HeaderText = styled.section`
-    text-align: center;
-    margin-bottom: 7rem;
+const HeaderText = styled.div`
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
     font-family: 'Oswald', sans-serif;
-    font-optical-sizing: auto;
+    margin-left: 1rem;
 
     @media (max-width: 640px) {
-        margin-bottom: 2rem;
-    }
-
-    @media (min-width: 1800px) {
-        margin-bottom: 10rem;
+        margin-bottom: 1rem;
+        flex-direction: column;
+        margin-left: 0;
+        gap: 0;
     }
 `
 
 const HeaderName = styled.h1`
-    line-height: 4vw;
-    font-size: 4rem;
-    text-shadow: 0 0 1vw #fa1c16, 0 0 3vw #fa1c16;
+    font-size: 2rem;
     color: #fed128;
+    text-shadow: 0 0 1vw #fa1c16, 0 0 3vw #fa1c16;
 
     @media (max-width: 640px) {
         font-size: 3rem;
-        line-height: 3rem;
-        margin-bottom: 1rem;
-    }
-
-    @media (min-width: 1800px) {
-        font-size: 6rem;
-        line-height: 6rem;
     }
 `
 
 const HeaderTitle = styled.h2`
-    color: #426dfb;
-    line-height: 4vw;
-    font-size: 3rem;
-    text-shadow: 0 0 1vw #1041ff, 0 0 3vw #1041ff;
+    font-size: 1.8rem;
     color: #28d7fe;
+    text-shadow: 0 0 1vw #1041ff, 0 0 3vw #1041ff;
 
     @media (max-width: 640px) {
-        font-size: 2rem;
-        line-height: 2.5rem;
-        margin-bottom: 1.5rem;
-    }
-
-    @media (min-width: 1800px) {
-        font-size: 5rem;
-        line-height: 5rem;
+        font-size: 2.5rem;
     }
 `
 
-const HeaderLinks = styled.section`
-    margin: auto;
-    width: 40vw;
-    margin-top: 2rem;
-    padding: 0.5rem;
+const HeaderLinks = styled.nav`
     display: flex;
-    justify-content: space-evenly;
+    gap: 1rem;
+    margin-right: 4rem;
 
     a {
         text-decoration: none;
         color: #fff;
-        padding: 0.4rem;
-        position: relative;
-        transition: 0.4s ease;
-        font-size: 1.2rem;
-        font-weight: 600;
+        padding: 0.4rem 0.8rem;
         background-color: var(--btn);
-        border-radius: 10px;
+        border-radius: 5px;
         border: 2px solid #f0f6fa;
+        font-size: 1rem;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        transition: 0.3s ease;
+        font-family: 'Oswald', sans-serif;
 
         svg {
-            vertical-align: middle;
+            margin-right: 0.5rem;
         }
     }
 
@@ -147,15 +116,12 @@ const HeaderLinks = styled.section`
     }
 
     @media (max-width: 640px) {
-        width: 90vw;
-    }
-
-    @media (min-width: 1800px) {
-        width: 30vw;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-right: 0;
 
         a {
-            font-size: 1.2rem;
-            padding: 0.4rem;
+            font-size: 1.4rem;
         }
     }
 `

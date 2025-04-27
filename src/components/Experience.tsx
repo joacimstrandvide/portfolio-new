@@ -3,8 +3,7 @@ import styled from 'styled-components'
 import {
     SiTypescript,
     SiPostgresql,
-    SiExpress,
-    SiKubernetes
+    SiExpress
 } from 'react-icons/si'
 import { FaReact, FaNodeJs, FaLinux, FaGitAlt, FaDocker } from 'react-icons/fa'
 import { IoLogoJavascript } from 'react-icons/io'
@@ -62,10 +61,10 @@ function Experience() {
                     <FaDocker />
                     <p>Docker</p>
                 </SkillCard>
-                <SkillCard>
+                {/* <SkillCard>
                     <SiKubernetes />
                     <p>Kubernetes</p>
-                </SkillCard>
+                </SkillCard> */}
             </SkillsMain>
         </>
     )
