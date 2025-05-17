@@ -5,7 +5,7 @@ import {
     SiPostgresql,
     SiExpress
 } from 'react-icons/si'
-import { FaReact, FaNodeJs, FaLinux, FaGitAlt, FaDocker } from 'react-icons/fa'
+import { FaReact, FaNodeJs, FaLinux, FaGitAlt, FaDocker, FaPhp } from 'react-icons/fa'
 import { IoLogoJavascript } from 'react-icons/io'
 import { RiNextjsLine } from 'react-icons/ri'
 import { GrGraphQl } from 'react-icons/gr'
@@ -52,6 +52,10 @@ function Experience() {
                 <SkillCard>
                     <SiPostgresql />
                     <p>PostgreSQL</p>
+                </SkillCard>
+                <SkillCard>
+                    <FaPhp />
+                    <p>PHP</p>
                 </SkillCard>
                 <SkillCard>
                     <FaLinux />

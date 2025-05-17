@@ -109,11 +109,11 @@ function Projects() {
                                 special occasions.
                             </p>
                             <ProjectTech>
-                                React, Node.js, styled-components
+                                React, Node.js
                             </ProjectTech>
                             <ProjectLinks>
                                 <a
-                                    href="https://www.classicrolls.se"
+                                    href="https://www.amaraldfoto.se"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
@@ -143,8 +143,7 @@ function Projects() {
                                 interests
                             </p>
                             <ProjectTech>
-                                React, react-leaflet, Node.js, PostgreSQL,
-                                Supabase
+                                React, react-leaflet, Node.js
                             </ProjectTech>
                             <ProjectLinks>
                                 <a

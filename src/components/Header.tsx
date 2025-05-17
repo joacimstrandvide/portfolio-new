@@ -7,7 +7,7 @@ function Header() {
         <HeaderBar>
             <HeaderText>
                 <HeaderName>Joacim Strandvide</HeaderName>
-                <HeaderTitle>Front-End Developer</HeaderTitle>
+                <HeaderTitle>Software Developer</HeaderTitle>
             </HeaderText>
             <HeaderLinks>
                 <a
