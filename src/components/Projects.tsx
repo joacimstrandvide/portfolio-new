@@ -24,9 +24,9 @@ function Projects() {
                     <section className={styles.projectContent}>
                         <section
                             className={styles.projectImage}
-                            onClick={() => openModal('/images/20.webp')}
+                            onClick={() => openModal('images/20.webp')}
                         >
-                            <img src={'/images/20-front.webp'} alt="rollsbar" />
+                            <img src={'images/20-front.webp'} alt="rollsbar" />
                             <div className={styles.imageOverlay}>
                                 Click to View
                             </div>
@@ -65,10 +65,10 @@ function Projects() {
                     <section className={styles.projectContent}>
                         <section
                             className={styles.projectImage}
-                            onClick={() => openModal('/images/18.webp')}
+                            onClick={() => openModal('images/18.webp')}
                         >
                             <img
-                                src={'/images/18-front.webp'}
+                                src={'images/18-front.webp'}
                                 alt="classicrolls"
                                 loading="lazy"
                             />
@@ -103,10 +103,10 @@ function Projects() {
                     <section className={styles.projectContent}>
                         <section
                             className={styles.projectImage}
-                            onClick={() => openModal('/images/15.webp')}
+                            onClick={() => openModal('images/15.webp')}
                         >
                             <img
-                                src={'/images/15-front.webp'}
+                                src={'images/15-front.webp'}
                                 alt="SwedishMarkers"
                                 loading="lazy"
                             />

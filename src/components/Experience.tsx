@@ -7,10 +7,10 @@ import {
     FaLinux,
     FaGitAlt,
     FaDocker,
-    FaPhp
+    FaPhp,
+    FaPython
 } from 'react-icons/fa'
 import { IoLogoJavascript } from 'react-icons/io'
-import { RiNextjsLine } from 'react-icons/ri'
 import { GrGraphQl } from 'react-icons/gr'
 
 function Experience() {
@@ -35,10 +35,6 @@ function Experience() {
                 <p>Node.js</p>
             </section>
             <section className={styles.skillCard}>
-                <RiNextjsLine />
-                <p>Next.js</p>
-            </section>
-            <section className={styles.skillCard}>
                 <FaGitAlt />
                 <p>Git</p>
             </section>
@@ -57,6 +53,10 @@ function Experience() {
             <section className={styles.skillCard}>
                 <FaPhp />
                 <p>PHP</p>
+            </section>
+            <section className={styles.skillCard}>
+                <FaPython />
+                <p>Python</p>
             </section>
             <section className={styles.skillCard}>
                 <FaLinux />

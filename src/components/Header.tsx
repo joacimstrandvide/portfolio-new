@@ -7,7 +7,7 @@ function Header() {
         <header className={styles.headerBar}>
             <div className={styles.headerText}>
                 <h1 className={styles.headerName}>Joacim Strandvide</h1>
-                <h2 className={styles.headerTitle}>Software Developer</h2>
+                <h2 className={styles.headerTitle}>Front-end Developer</h2>
             </div>
             <nav className={styles.headerLinks}>
                 <a
