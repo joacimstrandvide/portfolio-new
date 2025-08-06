@@ -5,7 +5,6 @@ import {
     FaReact,
     FaNodeJs,
     FaLinux,
-    FaGitAlt,
     FaDocker,
     FaPhp,
     FaPython
@@ -33,10 +32,6 @@ function Experience() {
             <section className={styles.skillCard}>
                 <FaNodeJs />
                 <p>Node.js</p>
-            </section>
-            <section className={styles.skillCard}>
-                <FaGitAlt />
-                <p>Git</p>
             </section>
             <section className={styles.skillCard}>
                 <GrGraphQl />

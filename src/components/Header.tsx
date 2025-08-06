@@ -1,5 +1,4 @@
 import { FaLinkedin, FaGithub } from 'react-icons/fa'
-import { MdEmail } from 'react-icons/md'
 import styles from './Header.module.css'
 
 function Header() {
@@ -16,9 +15,6 @@ function Header() {
                     rel="noopener noreferrer"
                 >
                     <FaGithub /> Github
-                </a>
-                <a href="mailto:contact@strandvide.se">
-                    <MdEmail /> Email
                 </a>
                 <a
                     href="https://www.linkedin.com/in/joacim-strandvide/"
