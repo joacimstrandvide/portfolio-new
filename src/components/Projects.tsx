@@ -24,9 +24,9 @@ function Projects() {
                     <section className={styles.projectContent}>
                         <section
                             className={styles.projectImage}
-                            onClick={() => openModal('images/20.webp')}
+                            onClick={() => openModal('images/dmarc.webp')}
                         >
-                            <img src={'images/20-front.webp'} alt="rollsbar" />
+                            <img src={'images/dmarc.webp'} alt="dmarc viewer" />
                             <div className={styles.imageOverlay}>
                                 Click to View
                             </div>
@@ -60,15 +60,15 @@ function Projects() {
                     </section>
                 </section>
 
-                {/* Project 2 */}
+                {/* Project 3 */}
                 <section className={styles.project}>
                     <section className={styles.projectContent}>
                         <section
                             className={styles.projectImage}
-                            onClick={() => openModal('images/18.webp')}
+                            onClick={() => openModal('images/rolls.webp')}
                         >
                             <img
-                                src={'images/18-front.webp'}
+                                src={'images/rolls.webp'}
                                 alt="classicrolls"
                                 loading="lazy"
                             />
@@ -98,15 +98,15 @@ function Projects() {
                     </section>
                 </section>
 
-                {/* Project 1 */}
+                {/* Project 2 */}
                 <section className={styles.project}>
                     <section className={styles.projectContent}>
                         <section
                             className={styles.projectImage}
-                            onClick={() => openModal('images/15.webp')}
+                            onClick={() => openModal('images/markers.webp')}
                         >
                             <img
-                                src={'images/15-front.webp'}
+                                src={'images/markers.webp'}
                                 alt="SwedishMarkers"
                                 loading="lazy"
                             />
@@ -133,6 +133,43 @@ function Projects() {
                                 </a>
                                 <a
                                     href="https://github.com/joacimstrandvide/SwedishMarkers"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <FaGithub /> Source
+                                </a>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+                {/* Project 1 */}
+                <section className={styles.project}>
+                    <section className={styles.projectContent}>
+                        <section
+                            className={styles.projectImage}
+                            onClick={() => openModal('images/forum.webp')}
+                        >
+                            <img
+                                src={'images/forum.webp'}
+                                alt="Text Forum"
+                                loading="lazy"
+                            />
+                            <div className={styles.imageOverlay}>
+                                Click to View
+                            </div>
+                        </section>
+                        <section className={styles.projectDetails}>
+                            <h2>Text Forum</h2>
+                            <p>
+                                Simple text forum with user authentication and
+                                threads
+                            </p>
+                            <p className={styles.projectTech}>
+                                PHP, sqlite
+                            </p>
+                            <section className={styles.projectLinks}>
+                                <a
+                                    href="https://github.com/joacimstrandvide/Board-forum"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
