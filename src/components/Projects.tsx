@@ -16,50 +16,9 @@ function Projects() {
 
     return (
         <>
-            {/* My Projects */}
+            {/* Mina Projekt */}
             <h2 className={styles.projectHeader}>My Projects</h2>
             <section className={styles.projectsMain}>
-                {/* Project 4 */}
-                <section className={styles.project}>
-                    <section className={styles.projectContent}>
-                        <section
-                            className={styles.projectImage}
-                            onClick={() => openModal('images/dmarc.webp')}
-                        >
-                            <img src={'images/dmarc.webp'} alt="dmarc viewer" />
-                            <div className={styles.imageOverlay}>
-                                Click to View
-                            </div>
-                        </section>
-                        <section className={styles.projectDetails}>
-                            <h2>DMARC Viewer</h2>
-                            <p>
-                                Site for uploading and viewing DMARC XML
-                                reports.
-                            </p>
-                            <p className={styles.projectTech}>
-                                Next.js, Typescript, Tailwind
-                            </p>
-                            <section className={styles.projectLinks}>
-                                <a
-                                    href="https://joacimstrandvide.github.io/dmarc-viewer/"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    <IoIosGlobe /> Live
-                                </a>
-                                <a
-                                    href="https://github.com/joacimstrandvide/dmarc-viewer"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    <FaGithub /> Source
-                                </a>
-                            </section>
-                        </section>
-                    </section>
-                </section>
-
                 {/* Project 3 */}
                 <section className={styles.project}>
                     <section className={styles.projectContent}>
@@ -164,9 +123,7 @@ function Projects() {
                                 Simple text forum with user authentication and
                                 threads
                             </p>
-                            <p className={styles.projectTech}>
-                                PHP, sqlite
-                            </p>
+                            <p className={styles.projectTech}>PHP, sqlite</p>
                             <section className={styles.projectLinks}>
                                 <a
                                     href="https://github.com/joacimstrandvide/Board-forum"

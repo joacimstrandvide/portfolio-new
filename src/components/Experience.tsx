@@ -1,20 +1,25 @@
 import { useState } from 'react'
+/* CSS */
 import styles from './Experience.module.css'
-import { SiTypescript, SiPostgresql, SiExpress } from 'react-icons/si'
+/* Ikoner */
+import { SiTypescript, SiPostgresql, SiExpress, SiSqlite } from 'react-icons/si'
 import {
     FaReact,
     FaNodeJs,
     FaLinux,
     FaDocker,
     FaPhp,
-    FaPython
+    FaPython,
+    FaWordpress
 } from 'react-icons/fa'
 import { IoLogoJavascript } from 'react-icons/io'
 import { GrGraphQl } from 'react-icons/gr'
 
 function Experience() {
+    /* Vilken tab som visas */
     const [selectedTab, setSelectedTab] = useState('experience')
 
+    /* Tekniska Kunskaper */
     const skills = (
         <section className={styles.skillsMain}>
             <section className={styles.skillCard}>
@@ -46,8 +51,16 @@ function Experience() {
                 <p>PostgreSQL</p>
             </section>
             <section className={styles.skillCard}>
+                <SiSqlite />
+                <p>SQLite</p>
+            </section>
+            <section className={styles.skillCard}>
                 <FaPhp />
                 <p>PHP</p>
+            </section>
+            <section className={styles.skillCard}>
+                <FaWordpress />
+                <p>Wordpress</p>
             </section>
             <section className={styles.skillCard}>
                 <FaPython />
@@ -64,15 +77,15 @@ function Experience() {
         </section>
     )
 
+    /* Erfarenhet */
     const workHistory = (
         <section className={styles.tabsMain}>
             <section className={styles.tabsContent}>
-                {/* Example of one card: */}
                 <section className={styles.tabsCard}>
-                    <h2>Classicrolls.se</h2>
-                    <h4>June 2024 - March 2025</h4>
+                    <h2>Classicrolls</h2>
+                    <h4>June 2024 - Present</h4>
                     <h4>Freelance Project</h4>
-                    <h5>Lead Developer</h5>
+                    <h5>Frontend Developer</h5>
                     <ul>
                         <li>
                             Collaborated directly with the owner to redesign
@@ -88,13 +101,17 @@ function Experience() {
                             configuring DNS settings and ensuring a smooth
                             transition to the production environment.
                         </li>
+                        <li>
+                            Ongoing responsibility for maintenance,
+                            improvements, and technical support for the website.
+                        </li>
                     </ul>
                 </section>
                 <section className={styles.tabsCard}>
                     <h2>Nilo Collaborations</h2>
                     <h4>January 2024 - June 2024</h4>
                     <h4>Internship</h4>
-                    <h5>Front-end Developer</h5>
+                    <h5>Frontend Developer</h5>
                     <ul>
                         <li>
                             Collaborated with a team of developers and UX
@@ -119,7 +136,7 @@ function Experience() {
                     <h2>PlotEye</h2>
                     <h4>August 2023 - October 2023</h4>
                     <h4>Internship</h4>
-                    <h5>Front-end Developer</h5>
+                    <h5>Frontend Developer</h5>
                     <ul>
                         <li>
                             Developed the website by managing tasks from a
@@ -135,6 +152,7 @@ function Experience() {
         </section>
     )
 
+    /* Utbildning */
     const educationHistory = (
         <section className={styles.tabsMain}>
             <section className={styles.tabsContent}>
@@ -165,6 +183,7 @@ function Experience() {
     )
 
     return (
+        /* Ändra vilken tab som visas beroende på vilken som är vald */
         <>
             <div className={styles.tabSelect}>
                 <div
