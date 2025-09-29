@@ -11,7 +11,12 @@
     }
 } */
 
-/* Basic page styling */
+/* Ta bort skrollbaren */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* grundläggande styling */
 html {
     scroll-behavior: smooth;
 }

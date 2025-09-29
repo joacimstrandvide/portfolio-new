@@ -19,7 +19,7 @@ function Projects() {
             {/* Mina Projekt */}
             <h2 className={styles.projectHeader}>My Projects</h2>
             <section className={styles.projectsMain}>
-                {/* Project 3 */}
+                {/* Project 4 */}
                 <section className={styles.project}>
                     <section className={styles.projectContent}>
                         <section
@@ -57,7 +57,7 @@ function Projects() {
                     </section>
                 </section>
 
-                {/* Project 2 */}
+                {/* Project 3 */}
                 <section className={styles.project}>
                     <section className={styles.projectContent}>
                         <section
@@ -101,7 +101,7 @@ function Projects() {
                         </section>
                     </section>
                 </section>
-                {/* Project 1 */}
+                {/* Project 2 */}
                 <section className={styles.project}>
                     <section className={styles.projectContent}>
                         <section
@@ -127,6 +127,47 @@ function Projects() {
                             <section className={styles.projectLinks}>
                                 <a
                                     href="https://github.com/joacimstrandvide/Board-forum"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <FaGithub /> Source
+                                </a>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+                {/* Project 1 */}
+                <section className={styles.project}>
+                    <section className={styles.projectContent}>
+                        <section
+                            className={styles.projectImage}
+                            onClick={() => openModal('images/country.webp')}
+                        >
+                            <img
+                                src={'images/country.webp'}
+                                alt="Text Forum"
+                                loading="lazy"
+                            />
+                            <div className={styles.imageOverlay}>
+                                Click to View
+                            </div>
+                        </section>
+                        <section className={styles.projectDetails}>
+                            <h2>CountryLookup</h2>
+                            <p>
+                                Website where you can look up information about specific countries.
+                            </p>
+                            <p className={styles.projectTech}>HTMl, CSS, JavaScript, API</p>
+                            <section className={styles.projectLinks}>
+                                <a
+                                    href="https://joacimstrandvide.github.io/CountryAPI/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <IoIosGlobe /> Live
+                                </a>
+                                <a
+                                    href="https://github.com/joacimstrandvide/CountryAPI"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
