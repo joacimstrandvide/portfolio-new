@@ -1,20 +1,3 @@
-.projectHeader {
-    margin-left: 1rem;
-    font-size: 1.8rem;
-    font-weight: 600;
-    font-family: 'Oswald', sans-serif;
-    font-optical-sizing: auto;
-    margin-top: 5rem;
-    color: var(--text);
-}
-
-@media (max-width: 640px) {
-    .projectHeader {
-        text-align: center;
-        margin-left: 0;
-    }
-}
-
 .projectTech {
     font-weight: 500;
 }
@@ -84,14 +67,12 @@
     font-weight: bold;
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
-    font-optical-sizing: auto;
 }
 
 .projectDetails {
     flex: 1;
     padding: 10px;
     font-family: 'Oswald', sans-serif;
-    font-optical-sizing: auto;
     line-height: 1.6;
 }
 

@@ -17,9 +17,8 @@ function Projects() {
     return (
         <>
             {/* Mina Projekt */}
-            <h2 className={styles.projectHeader}>My Projects</h2>
             <section className={styles.projectsMain}>
-                {/* Project 4 */}
+                {/* Classicrolls*/}
                 <section className={styles.project}>
                     <section className={styles.projectContent}>
                         <section
@@ -57,7 +56,7 @@ function Projects() {
                     </section>
                 </section>
 
-                {/* Project 3 */}
+                {/* SwedishMarkers */}
                 <section className={styles.project}>
                     <section className={styles.projectContent}>
                         <section
@@ -80,18 +79,18 @@ function Projects() {
                                 interests
                             </p>
                             <p className={styles.projectTech}>
-                                React, react-leaflet, Node.js
+                                React, React-Leaflet, Node.js, Docker
                             </p>
                             <section className={styles.projectLinks}>
                                 <a
-                                    href="https://joacimstrandvide.github.io/SwedishMarkers/"
+                                    href="https://joacimstrandvide.github.io/swedishmarkersvite/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
                                     <IoIosGlobe /> Live
                                 </a>
                                 <a
-                                    href="https://github.com/joacimstrandvide/SwedishMarkers"
+                                    href="https://github.com/joacimstrandvide/swedishmarkersvite"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
@@ -101,7 +100,7 @@ function Projects() {
                         </section>
                     </section>
                 </section>
-                {/* Project 2 */}
+                {/* PHP Forum */}
                 <section className={styles.project}>
                     <section className={styles.projectContent}>
                         <section
@@ -136,7 +135,7 @@ function Projects() {
                         </section>
                     </section>
                 </section>
-                {/* Project 1 */}
+                {/* CountryLookup */}
                 <section className={styles.project}>
                     <section className={styles.projectContent}>
                         <section
@@ -145,7 +144,7 @@ function Projects() {
                         >
                             <img
                                 src={'images/country.webp'}
-                                alt="Text Forum"
+                                alt="CountryLookup"
                                 loading="lazy"
                             />
                             <div className={styles.imageOverlay}>
@@ -155,9 +154,12 @@ function Projects() {
                         <section className={styles.projectDetails}>
                             <h2>CountryLookup</h2>
                             <p>
-                                Website where you can look up information about specific countries.
+                                Website where you can look up information about
+                                specific countries.
                             </p>
-                            <p className={styles.projectTech}>HTMl, CSS, JavaScript, API</p>
+                            <p className={styles.projectTech}>
+                                HTMl, CSS, JavaScript, API
+                            </p>
                             <section className={styles.projectLinks}>
                                 <a
                                     href="https://joacimstrandvide.github.io/CountryAPI/"
