@@ -22,6 +22,7 @@ export interface AppStateType {
     Projects: AppWindowState
     previouslyActiveApp: string
     taskbarAppStack: string[]
+    [key: string]: AppWindowState | string | string[] // <-- Add this line
 }
 
 export type AppActionType =

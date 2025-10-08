@@ -1,6 +1,7 @@
-import React, { useContext } from 'react'
+import { useContext } from 'react'
 import { motion } from 'framer-motion'
 import AppContext from '../context/AppContext'
+import type { AppContextType } from '../context/AppState' // Add correct type
 
 type MenuItem = {
     name: string
@@ -13,7 +14,7 @@ type IconProps = {
 }
 
 const Icon = ({ menu }: IconProps) => {
-    const { state, openApp } = useContext(AppContext)
+    const { openApp } = useContext(AppContext) as AppContextType // Only use openApp
 
     return (
         <motion.div

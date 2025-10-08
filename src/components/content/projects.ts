@@ -1,13 +1,13 @@
 
 export const projects = [
-    /* {
+    {
         name: 'Workout Tracker',
-        imagePath: '/images/tracker.webp',
+        imagePath: '/images/workout.webp',
         description:
             "A simple workout tracker i created in Python to help me track my workouts",
         githubLink: 'https://github.com/joacimstrandvide/workout-tracker',
         techStack: "Python"
-    }, */
+    },
     {
         name: 'SwedishMarkers',
         imagePath: '/images/markers.webp',

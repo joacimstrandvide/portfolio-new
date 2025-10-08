@@ -1,11 +1,9 @@
-import React, { useState } from 'react'
 import AppScreen from './AppScreen'
 import Icon from './UI/Icon'
 import { Menu } from '../components/content/menu'
 import Taskbar from './Taskbar'
 
 const Desktop = () => {
-    const [appSelected, setAppSelected] = useState<string | null>(null)
 
     return (
         <>
@@ -17,7 +15,6 @@ const Desktop = () => {
                                 <Icon
                                     key={i}
                                     menu={menu}
-                                    setAppSelected={setAppSelected}
                                 />
                             )
                         })}

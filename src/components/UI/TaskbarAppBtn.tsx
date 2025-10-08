@@ -1,4 +1,10 @@
-import React from "react";
+type TaskbarAppBtnProps = {
+  appName: string;
+  iconSrc: string;
+  isActive: boolean;
+  activeHandler: () => void;
+  minimizeApp: () => void;
+};
 
 const TaskbarAppBtn = ({
   appName,
@@ -6,10 +12,10 @@ const TaskbarAppBtn = ({
   isActive,
   activeHandler,
   minimizeApp,
-}) => {
+}: TaskbarAppBtnProps) => {
   return (
     <button
-      className={` w-fit sm:w-[130px] text-[13px] max-w-[130px] h-[30px] sm:h-[26px] mt-[3px] mb-[5px] leading-[14px] overflow-hidden text-black p-[2px] ms-[1px] flex justify-start items-center gap-[10px] border-t-[#dfdfdf]  border-e-[grey]  border-b-[grey] border-s-[#dfdfdf] border-[2px] cursor-default 
+      className={` w-fit sm:w-[130px] text-[13px] max-w-[130px] h-[30px] sm:h-[26px] mt-[3px] mb-[5px] leading-[14px] overflow-hidden text-black p-[2px] ms-[1px] flex justify-start items-center gap-[10px] border-t-[#dfdfdf]  border-e-[grey]  border-b-[grey] border-s-[#dfdfdf] border-[2px] cursor-default
               ${isActive && "BtnClicked"}`}
       style={{ boxShadow: "0.5px 0.5px #000" }}
       onClick={() => {

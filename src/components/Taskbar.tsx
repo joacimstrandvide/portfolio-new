@@ -3,29 +3,22 @@ import StartMenu from "./StartMenu";
 import { Menu } from "./content/menu";
 import TaskbarAppBtn from "./UI/TaskbarAppBtn";
 import AppContext from "../components/context/AppContext";
+import type { AppContextType } from "./context/AppState"; // Import correct type
 
-type AppState = {
-  [key: string]: {
-    open: boolean;
-    top: boolean;
-    minimize: boolean;
-  };
-};
-
-type AppContextType = {
-  state: AppState;
-  activeApp: (name: string) => void;
-  minimizeApp: (name: string) => void;
-};
-
-// 2. Use the type with useContext
 const Taskbar = () => {
   const { state, activeApp, minimizeApp } = useContext(AppContext) as AppContextType;
   const [isStartClicked, setIsStartClicked] = useState(false);
 
-  const taskbarAppStack = Menu.map((app, idx) => {
+  const taskbarAppStack = Menu.map((app) => {
     const appState = state[app.name];
-    if (!appState?.open) return null;
+    if (
+      !appState ||
+      typeof appState !== "object" ||
+      Array.isArray(appState) ||
+      !("open" in appState)
+    )
+      return null;
+    if (!appState.open) return null;
     return (
       <TaskbarAppBtn
         key={app.name}
