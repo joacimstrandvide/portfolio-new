@@ -1,13 +1,20 @@
-import Header from "./components/Header"
-import Projects from "./components/Projects"
-import About from "./components/About"
+import { useEffect } from 'react'
+import Desktop from './components/Desktop'
+import AppState from './components/context/AppState'
 
 function App() {
-    return <>
-        <Header />
-        <About />
-        <Projects />
-    </>
+    useEffect(() => {
+        document.addEventListener('contextmenu', (event) =>
+            event.preventDefault()
+        )
+    }, [])
+    return (
+        <>
+            <AppState>
+                <Desktop />
+            </AppState>
+        </>
+    )
 }
 
 export default App
