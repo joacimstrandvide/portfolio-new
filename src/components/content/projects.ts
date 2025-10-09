@@ -21,8 +21,8 @@ export const projects = [
         name: 'ClassicRolls',
         imagePath: '/images/rolls.webp',
         description:
-            "I developed and assisted with deploying awebsite for a company specializing in Rolls-Royce rentals for weddings and other special occasions.",
-        websiteLink: 'https://www.amaraldfoto.se',
+            "I developed and assisted with deploying a website for a company specializing in Rolls-Royce rentals for weddings and other special occasions.",
+        websiteLink: 'https://www.classicrolls.se',
         techStack: "React, Node.js"
     },
     {

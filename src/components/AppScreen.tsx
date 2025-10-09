@@ -4,6 +4,7 @@ import { Menu } from './content/menu'
 import AppContext from './context/AppContext'
 import About from './Apps/About'
 import Projects from './Apps/Projects'
+import Credits from './Apps/Credits'
 
 type AppWindowState = {
     open: boolean
@@ -15,6 +16,7 @@ type AppWindowState = {
 type AppState = {
     About: AppWindowState
     Projects: AppWindowState
+    Credits: AppWindowState
 }
 
 type AppContextType = {
@@ -46,6 +48,17 @@ const AppScreen = () => {
                     isMinimized={state.Projects.minimize}
                 >
                     <Projects isMaximized={state.Projects.fullscreen} />
+                </AppScreenFrame>
+            )}
+            {state.Credits.open && (
+                <AppScreenFrame
+                    appInfo={Menu[2]}
+                    className=""
+                    isActive={state.Credits.top}
+                    isMaximized={state.Credits.fullscreen}
+                    isMinimized={state.Credits.minimize}
+                >
+                    <Credits isMaximized={state.Credits.fullscreen} />
                 </AppScreenFrame>
             )}
         </>

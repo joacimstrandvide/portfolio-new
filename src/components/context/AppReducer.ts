@@ -7,7 +7,7 @@ import {
 } from "./AppAction";
 import type { AppStateType, AppActionType } from "./AppState";
 
-type AppName = "About" | "Projects";
+type AppName = "About" | "Projects" | "Credits";
 
 const AppReducer = (
     state: AppStateType,

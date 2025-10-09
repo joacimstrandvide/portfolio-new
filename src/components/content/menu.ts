@@ -12,5 +12,12 @@ export const Menu = [
         deskIconSize: "w-[42px] h-[42px]",
         headerIconSize: " h-[19px] w-[17px]",
         startIconSize: "w-[22px] h-[20px]"
+    },
+    {
+        name: "Credits",
+        path: "/assets/credits.png",
+        deskIconSize: "w-[42px] h-[42px]",
+        headerIconSize: " h-[19px] w-[17px]",
+        startIconSize: "w-[22px] h-[20px]"
     }
 ];

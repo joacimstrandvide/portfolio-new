@@ -20,9 +20,10 @@ export interface AppWindowState {
 export interface AppStateType {
     About: AppWindowState
     Projects: AppWindowState
+    Credits: AppWindowState
     previouslyActiveApp: string
     taskbarAppStack: string[]
-    [key: string]: AppWindowState | string | string[] // <-- Add this line
+    [key: string]: AppWindowState | string | string[]
 }
 
 export type AppActionType =
@@ -55,6 +56,13 @@ const initialState: AppStateType = {
         fullscreen: false
     },
     Projects: {
+        open: false,
+        minimize: false,
+        closed: true,
+        top: false,
+        fullscreen: false
+    },
+    Credits: {
         open: false,
         minimize: false,
         closed: true,

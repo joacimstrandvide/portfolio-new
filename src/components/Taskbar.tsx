@@ -3,7 +3,7 @@ import StartMenu from "./StartMenu";
 import { Menu } from "./content/menu";
 import TaskbarAppBtn from "./UI/TaskbarAppBtn";
 import AppContext from "../components/context/AppContext";
-import type { AppContextType } from "./context/AppState"; // Import correct type
+import type { AppContextType } from "./context/AppState";
 
 const Taskbar = () => {
   const { state, activeApp, minimizeApp } = useContext(AppContext) as AppContextType;
