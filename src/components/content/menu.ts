@@ -30,7 +30,7 @@ export const Menu = [
     },
     {
         name: "LinkedIn",
-        path: "/assets/chrome.png",
+        path: "/assets/linkedin.png",
         deskIconSize: "w-[42px] h-[42px]",
         headerIconSize: " h-[19px] w-[17px]",
         startIconSize: "w-[22px] h-[20px]",

@@ -14,8 +14,8 @@ const Credits: React.FC<CreditProps> = ({ isMaximized }) => {
             >
                 <div className=" flex flex-col sm:items-start items-center  gap-1 mt-4 sm:mt-14">
                     <h2
-                        className={` font-extrabold ${
-                            isMaximized ? ' text-[40px]' : 'text-[30px]'
+                        className={` font-bold ${
+                            isMaximized ? ' text-[30px]' : 'text-[20px]'
                         }`}
                     >
                         This portfolio was inspired by several windows 95
