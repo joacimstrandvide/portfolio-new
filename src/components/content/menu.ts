@@ -19,5 +19,21 @@ export const Menu = [
         deskIconSize: "w-[42px] h-[42px]",
         headerIconSize: " h-[19px] w-[17px]",
         startIconSize: "w-[22px] h-[20px]"
+    },
+    {
+        name: "Github",
+        path: "/assets/github.png",
+        deskIconSize: "w-[42px] h-[42px]",
+        headerIconSize: " h-[19px] w-[17px]",
+        startIconSize: "w-[22px] h-[20px]",
+        link: "https://github.com/joacimstrandvide"
+    },
+    {
+        name: "LinkedIn",
+        path: "/assets/chrome.png",
+        deskIconSize: "w-[42px] h-[42px]",
+        headerIconSize: " h-[19px] w-[17px]",
+        startIconSize: "w-[22px] h-[20px]",
+        link: "https://www.linkedin.com/in/joacim-strandvide"
     }
 ];

@@ -1,12 +1,13 @@
 import { useContext } from 'react'
 import { motion } from 'framer-motion'
 import AppContext from '../context/AppContext'
-import type { AppContextType } from '../context/AppState' // Add correct type
+import type { AppContextType } from '../context/AppState'
 
 type MenuItem = {
     name: string
     path: string
     deskIconSize: string
+    link?: string
 }
 
 type IconProps = {
@@ -14,7 +15,15 @@ type IconProps = {
 }
 
 const Icon = ({ menu }: IconProps) => {
-    const { openApp } = useContext(AppContext) as AppContextType // Only use openApp
+    const { openApp } = useContext(AppContext) as AppContextType
+
+    const handleOpen = () => {
+        if (menu.link) {
+            window.open(menu.link, "_blank", "noopener,noreferrer")
+        } else {
+            openApp(menu.name)
+        }
+    }
 
     return (
         <motion.div
@@ -24,8 +33,8 @@ const Icon = ({ menu }: IconProps) => {
         ${menu.name === 'Projects' ? 'gap-[10px]' : ''}`}
             dragMomentum={false}
             dragElastic={0.1}
-            onDoubleClick={() => openApp(menu.name)}
-            onTouchStart={() => openApp(menu.name)}
+            onDoubleClick={handleOpen}
+            onTouchStart={handleOpen}
         >
             <img
                 src={menu.path}

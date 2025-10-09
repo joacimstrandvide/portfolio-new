@@ -42,8 +42,11 @@ const StartMenu = ({ setCloseStartMenu }: StartMenuProps) => {
                                     key={i}
                                     className=" cursor-pointer flex gap-2 justify-start items-center p-[3px] h-[38px] border-b-[1px] border-b-white hover:bg-[#dedede] hover:border-b-black"
                                     onClick={() => {
-                                        if (state[app.name].open !== true)
+                                        if (app.link) {
+                                            window.open(app.link, "_blank", "noopener,noreferrer")
+                                        } else if (state[app.name].open !== true) {
                                             openApp(app.name)
+                                        }
                                         setCloseStartMenu((prev) => !prev)
                                     }}
                                 >
