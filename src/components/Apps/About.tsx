@@ -35,7 +35,7 @@ const About: React.FC<AboutProps> = ({ isMaximized }) => {
                 <p>
                     Hello, I'm Joacim, a developer with a focus on React and
                     modern frontend apps. I also have a strong interest in
-                    cybersecurity and scam baiting
+                    cybersecurity and scam baiting.
                 </p>
             </div>
         </div>

@@ -18,8 +18,8 @@ const Credits: React.FC<CreditProps> = ({ isMaximized }) => {
                             isMaximized ? ' text-[30px]' : 'text-[20px]'
                         }`}
                     >
-                        This portfolio was inspired by several windows 95
-                        projects
+                        This portfolio was inspired by several Windows 95 style
+                        portfolios.
                     </h2>
                 </div>
             </div>
