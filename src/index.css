@@ -1,53 +1,35 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* Ta bort skrollbaren */
+::-webkit-scrollbar {
+    display: none;
+}
 
 @font-face {
     font-family: MS Sans;
     src: url(/assets/MS\ Sans\ Serif\ 8pt.ttf);
 }
 
-/* Ta bort skrollbaren */
-::-webkit-scrollbar {
-    display: none;
+/* Färger */
+:root {
+    --bg: hsl(37, 13%, 88%);
+    --text: hsl(0, 2%, 9%);
 }
 
-/* grundläggande styling */
+/* Mörkt läge */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: hsl(330, 4%, 10%);
+        --text: hsl(43, 23%, 94%);
+    }
+}
+
 html {
     scroll-behavior: smooth;
 }
 
 body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: var(--bg);
     font-family: MS Sans;
-    overflow: hidden;
-    cursor: default;
-    touch-action: none;
-}
-
-.BtnClicked {
-    background-position: 50% 50%;
-    background: repeating-conic-gradient(#bdbebd 0 25%, #fff 0 50%) 50%/2px 2px;
-    border-color: #000 #fafafa #fafafa #000;
-    border-radius: 0.5px;
-    border-width: 1px;
-    box-sizing: border-box;
-    outline: 1px solid red;
-    border-style: solid;
-}
-
-.appMaximized {
-    transform: translateX(0) translateY(0) !important;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: calc(100vh - 35px);
-}
-
-.appContentHeightInMin {
-    height: calc(99% - 36px);
-    margin: 1px 0;
-}
-
-.appContentHeightInMax {
-    height: calc(100% - 34px);
 }

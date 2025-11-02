@@ -1,0 +1,45 @@
+.headermain {
+    text-align: center;
+    color: var(--text);
+}
+
+.headermenu {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    cursor: pointer;
+}
+
+
+.menuitem {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.menuitem img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.headermenu a {
+    text-decoration: none;
+    color: var(--text);
+    transition: color 0.3s;
+}
+
+.headermenu h3 {
+    font-weight: normal;
+    transition: color 0.3s;
+    color: var(--text);
+}
+
+.headermenu h3:hover,
+.headermenu a:hover {
+    color: var(--accent, blue);
+}
+
+.headermenu .active {
+    text-decoration: underline;
+    color: var(--accent, blue);
+}
