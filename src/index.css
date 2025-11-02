@@ -3,6 +3,7 @@
     display: none;
 }
 
+/* Font */
 @font-face {
     font-family: MS Sans;
     src: url(/assets/MS\ Sans\ Serif\ 8pt.ttf);
@@ -11,7 +12,7 @@
 /* Färger */
 :root {
     --bg: hsl(37, 13%, 88%);
-    --text: hsl(0, 2%, 9%);
+    --text: hsl(0, 0%, 0%);
 }
 
 /* Mörkt läge */

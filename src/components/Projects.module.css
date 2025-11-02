@@ -3,8 +3,6 @@
     grid-template-columns: 1fr;
     gap: 2rem;
     padding: 1rem;
-    max-height: 100%;
-    overflow-y: auto;
 }
 
 @media (min-width: 768px) {
@@ -17,48 +15,85 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    border-radius: 2rem;
+    background-color: var(--bg);
     padding: 1rem;
 }
 
+@media (min-width: 768px) {
+    .projectCard {
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+}
+
 .projectImageContainer {
+    flex: 1;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
 .projectImage {
     width: 100%;
-    max-width: 450px;
-    height: auto;
+    max-width: 300px;
+    height: 200px;
     object-fit: cover;
+    border-radius: 6px;
 }
 
-.techStackDesktop {
-    display: none;
+.projectContent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
 
-@media (min-width: 640px) {
-    .techStackDesktop {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 0.5rem;
-        margin-top: 0.5rem;
-    }
+.icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 8px;
 }
 
-.techStackMobile {
+
+.headerRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.headerRow h2 {
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: var(--text);
+}
+
+.links {
+    display: flex;
+    gap: 0.75rem;
+}
+
+.links a {
+    color: var(--text);
+    transition: color 0.3s;
+}
+
+.links a:hover {
+    color: var(--accent, blue);
+}
+
+p {
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+    color: var(--text);
+}
+
+.techStack {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     gap: 0.5rem;
-    margin-top: 0.5rem;
-}
-
-@media (min-width: 640px) {
-    .techStackMobile {
-        display: none;
-    }
 }
 
 .techTag {
@@ -66,35 +101,4 @@
     padding: 0.25rem 0.5rem;
     border-radius: 4px;
     font-size: 0.75rem;
-}
-
-.projectContent {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-}
-
-.projectContent h2 {
-    font-size: 1.5rem;
-    font-weight: 800;
-    color: var(--text);
-}
-
-.projectContent p {
-    font-size: 0.9rem;
-    color: var(--text);
-}
-
-.links {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-    margin-top: 0.5rem;
-    color: var(--text);
-}
-
-@media (min-width: 640px) {
-    .links {
-        justify-content: flex-end;
-    }
 }
