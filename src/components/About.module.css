@@ -2,11 +2,11 @@
     text-align: center;
     color: var(--text);
     padding: 2rem;
-    margin: 0 auto; /* center horizontally */
+    margin: 0 auto;
 }
 
-.aboutMain h2 {
-    font-size: 2rem;
+.aboutMain h3 {
+    font-size: 1.8rem;
     margin-bottom: 1rem;
 }
 
@@ -17,12 +17,13 @@
 
 
 @media (max-width: 600px) {
-    .aboutMain h2 {
-        font-size: 1.5rem;
+    .aboutMain h3 {
+        font-size: 2rem;
     }
 
     .aboutMain h4 {
-        font-size: 0.95rem;
+        font-size: 1.5rem;
+        text-align: left;
     }
 
     .aboutMain {

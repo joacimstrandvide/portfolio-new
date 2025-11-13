@@ -1,38 +1,51 @@
 .headermain {
     text-align: center;
     color: var(--text);
-    padding: 1rem 0;
+    padding: 2rem 1rem;
 }
 
 .headermain h1 {
-    font-size: 1.75rem;
+    font-size: clamp(1.2rem, 4vw, 2rem);
     margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--accent, #00ffff);
+    text-shadow: 0 0 6px var(--accent, #00ffff), 0 0 12px #007777;
 }
 
-@media (max-width: 480px) {
-    .headermain h1 {
-        font-size: 1.5rem;
-    }
+.headermain h1 strong {
+    display: block;
+    font-size: clamp(1rem, 3vw, 1.25rem);
+    color: #fff;
+    text-shadow: 0 0 4px #ff66cc, 0 0 8px #ff66cc;
+    margin-top: 0.5rem;
 }
 
 .headermenu {
     display: flex;
     justify-content: center;
-    gap: 2rem;
-    cursor: pointer;
-    flex-wrap: wrap; /* allow items to wrap on small screens */
-    margin-top: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    padding: 0 1rem;
 }
 
 .menuitem {
     display: flex;
     align-items: center;
     gap: 0.5rem;
+    transition: transform 0.2s ease, filter 0.3s;
+}
+
+.menuitem:hover {
+    transform: translateY(-2px);
+    filter: brightness(1.2);
 }
 
 .menuitem img {
-    width: 24px;
-    height: 24px;
+    width: 28px;
+    height: 28px;
     object-fit: contain;
 }
 
@@ -43,40 +56,30 @@
 }
 
 .headermenu h3 {
-    font-weight: normal;
-    transition: color 0.3s;
+    font-weight: 500;
     color: var(--text);
     margin: 0;
+    letter-spacing: 0.5px;
+    cursor: pointer;
 }
 
 .headermenu h3:hover,
 .headermenu a:hover {
-    color: var(--accent, blue);
+    color: var(--accent, #00ffff);
 }
 
-.headermenu .active {
-    text-decoration: underline;
-    color: var(--accent, blue);
-}
-
-/* Mobile-specific adjustments */
 @media (max-width: 600px) {
     .headermenu {
         flex-direction: column;
-        align-items: center;
         gap: 1rem;
     }
 
-    .menuitem {
-        justify-content: center;
-    }
-
     .menuitem img {
-        width: 20px;
-        height: 20px;
+        width: 22px;
+        height: 22px;
     }
 
     .headermenu h3 {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 }

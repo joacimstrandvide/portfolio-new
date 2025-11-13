@@ -76,8 +76,11 @@
 }
 
 .links a {
+    display: flex;
+    align-items: center;
     color: var(--text);
     transition: color 0.3s;
+    text-decoration: none;
 }
 
 .links a:hover {

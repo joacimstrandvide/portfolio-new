@@ -24,7 +24,7 @@ function Projects() {
                                         href={project.githubLink}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                    >
+                                    >Github
                                         <img
                                             src="/assets/github.png"
                                             className={styled.icon}
@@ -37,7 +37,7 @@ function Projects() {
                                         href={project.websiteLink}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                    >
+                                    >Live
                                         <img
                                             src="/assets/world.png"
                                             className={styled.icon}
