@@ -31,13 +31,5 @@ export const projects = [
         githubLink: 'https://github.com/joacimstrandvide/CountryAPI',
         websiteLink: 'https://joacimstrandvide.github.io/CountryAPI',
         techStack: 'HTML, CSS, JavaScript, API'
-    },
-    {
-        name: 'Workout Tracker',
-        imagePath: '/images/workout.webp',
-        description:
-            'A personal project built in Python for tracking workout sessions, with a built-in progress bar.',
-        githubLink: 'https://github.com/joacimstrandvide/workout-tracker',
-        techStack: 'Python'
     }
 ]

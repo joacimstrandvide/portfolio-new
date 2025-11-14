@@ -40,6 +40,7 @@
     height: 200px;
     object-fit: cover;
     border-radius: 6px;
+    cursor: pointer;
 }
 
 .projectContent {
@@ -104,4 +105,29 @@ p {
     padding: 0.25rem 0.5rem;
     border-radius: 4px;
     font-size: 0.75rem;
+}
+
+/* Större bild */
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    cursor: zoom-out;
+    padding: 1rem;
+}
+
+.modalImage {
+    max-width: 90vw;
+    max-height: 90vh;
+    object-fit: contain;
+    border-radius: 10px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+    cursor: zoom-out;
 }
