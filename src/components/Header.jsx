@@ -1,6 +1,6 @@
 import styled from './Header.module.css'
 
-function Header({ setActiveSection }) {
+export default function Header({ setActiveSection }) {
     return (
         <>
             <header className={styled.headermain}>
@@ -20,6 +20,18 @@ function Header({ setActiveSection }) {
                         alt="About"
                     />
                     <h3>About Me</h3>
+                </div>
+
+                <div
+                    className={styled.menuitem}
+                    onClick={() => setActiveSection('work')}
+                >
+                    <img
+                        src="./assets/work.png"
+                        className={styled.icon}
+                        alt="Work"
+                    />
+                    <h3>Work</h3>
                 </div>
 
                 <div
@@ -71,5 +83,3 @@ function Header({ setActiveSection }) {
         </>
     )
 }
-
-export default Header

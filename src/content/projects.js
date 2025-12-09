@@ -27,7 +27,7 @@ export const projects = [
         name: 'Country Lookup',
         imagePath: '/images/country.webp',
         description:
-            'Website where you can look up information about specific countries via a Public API.',
+            'Website where you can look up information about specific countries via a API.',
         githubLink: 'https://github.com/joacimstrandvide/CountryAPI',
         websiteLink: 'https://joacimstrandvide.github.io/CountryAPI',
         techStack: 'HTML, CSS, JavaScript, API'

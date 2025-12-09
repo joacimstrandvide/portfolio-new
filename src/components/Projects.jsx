@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { projects } from '../content/projects'
 import styled from './Projects.module.css'
 
-function Projects() {
+export default function Projects() {
     const [enlargedImg, setEnlargedImg] = useState(null)
     return (
         <>
@@ -82,5 +82,3 @@ function Projects() {
         </>
     )
 }
-
-export default Projects
