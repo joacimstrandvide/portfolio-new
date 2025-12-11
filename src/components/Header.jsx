@@ -5,7 +5,7 @@ export default function Header({ setActiveSection }) {
         <>
             <header className={styled.headermain}>
                 <h1>
-                    Joacim Strandvide <strong>Frontend Developer</strong>
+                    Joacim Strandvide <strong>Software Engineer</strong>
                 </h1>
             </header>
 

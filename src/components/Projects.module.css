@@ -1,8 +1,8 @@
 .projectsContainer {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 2rem;
-    padding: 1rem;
+    gap: clamp(1rem, 3vw, 2rem);
+    padding: clamp(0.5rem, 2vw, 1rem);
 }
 
 @media (min-width: 768px) {
@@ -14,16 +14,16 @@
 .projectCard {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
-    border-radius: 2rem;
+    gap: clamp(0.75rem, 2vw, 1rem);
+    border-radius: clamp(1rem, 4vw, 2rem);
     background-color: var(--bg);
-    padding: 1rem;
+    padding: clamp(0.75rem, 2vw, 1rem);
 }
 
 @media (min-width: 768px) {
     .projectCard {
         flex-direction: row;
-        gap: 1.5rem;
+        gap: clamp(1rem, 2.5vw, 1.5rem);
     }
 }
 
@@ -36,10 +36,10 @@
 
 .projectImage {
     width: 100%;
-    max-width: 300px;
-    height: 200px;
+    max-width: clamp(200px, 30vw, 300px);
+    height: clamp(150px, 20vw, 200px);
     object-fit: cover;
-    border-radius: 6px;
+    border-radius: clamp(4px, 1vw, 6px);
     cursor: pointer;
 }
 
@@ -47,33 +47,32 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: clamp(0.4rem, 1vw, 0.5rem);
 }
 
 .icon {
-    width: 24px;
-    height: 24px;
-    margin-left: 8px;
+    width: clamp(20px, 3vw, 24px);
+    height: clamp(20px, 3vw, 24px);
+    margin-left: clamp(4px, 1vw, 8px);
 }
-
 
 .headerRow {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 0.5rem;
+    gap: clamp(0.3rem, 1vw, 0.5rem);
 }
 
 .headerRow h2 {
-    font-size: 1.25rem;
+    font-size: clamp(1rem, 2.6vw, 1.25rem);
     font-weight: 800;
     color: var(--text);
 }
 
 .links {
     display: flex;
-    gap: 0.75rem;
+    gap: clamp(0.5rem, 1.5vw, 0.75rem);
 }
 
 .links a {
@@ -89,25 +88,25 @@
 }
 
 p {
-    font-size: 0.9rem;
-    margin: 0.5rem 0;
+    font-size: clamp(0.8rem, 2vw, 0.9rem);
+    margin: clamp(0.3rem, 1vw, 0.5rem) 0;
     color: var(--text);
 }
 
 .techStack {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem;
+    gap: clamp(0.3rem, 1vw, 0.5rem);
 }
 
 .techTag {
     background-color: #d1d5db;
-    padding: 0.25rem 0.5rem;
-    border-radius: 4px;
-    font-size: 0.75rem;
+    padding: clamp(0.15rem, 0.6vw, 0.25rem) clamp(0.3rem, 1vw, 0.5rem);
+    border-radius: clamp(3px, 1vw, 4px);
+    font-size: clamp(0.65rem, 1.8vw, 0.75rem);
 }
 
-/* Större bild */
+/* Bild Modal */
 .modalOverlay {
     position: fixed;
     top: 0;
@@ -120,14 +119,13 @@ p {
     align-items: center;
     z-index: 999;
     cursor: zoom-out;
-    padding: 1rem;
+    padding: clamp(0.5rem, 2vw, 1rem);
 }
 
 .modalImage {
-    max-width: 90vw;
-    max-height: 90vh;
+    max-width: min(90vw, 900px);
     object-fit: contain;
-    border-radius: 10px;
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+    border-radius: clamp(6px, 2vw, 10px);
+    box-shadow: 0 0 clamp(10px, 4vw, 25px) rgba(0, 0, 0, 0.3);
     cursor: zoom-out;
 }
