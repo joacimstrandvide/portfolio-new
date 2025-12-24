@@ -36,7 +36,7 @@
 
 .projectImage {
     width: 100%;
-    max-width: clamp(200px, 30vw, 300px);
+    max-width: clamp(300px, 30vw, 400px);
     height: clamp(150px, 20vw, 200px);
     object-fit: cover;
     border-radius: clamp(4px, 1vw, 6px);

@@ -16,12 +16,13 @@ export const projects = [
         techStack: 'React, Leaflet, Node.js, Docker'
     },
     {
-        name: 'PHP Forum',
-        imagePath: '/images/forum.webp',
+        name: 'Digital Sensibility',
+        imagePath: '/images/sense.png',
         description:
-            'A text-based discussion forum featuring user authentication, thread management, and persistent data storage.',
-        githubLink: 'https://github.com/joacimstrandvide/Board-forum',
-        techStack: 'PHP, SQLite, HTML, CSS'
+            'A website for improving digital security with tools.',
+        githubLink: 'https://github.com/joacimstrandvide/digital-sense',
+        websiteLink: 'https://joacimstrandvide.github.io/digital-sense/',
+        techStack: 'Svelte, SvelteKit'
     },
     {
         name: 'Country Lookup',
