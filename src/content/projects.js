@@ -3,7 +3,7 @@ export const projects = [
         name: 'Classic Rolls',
         imagePath: '/images/rolls.webp',
         description:
-            'Developed and deployed a modern website for a company offering Rolls-Royce rentals for weddings and other special events.',
+            'Developed and deployed a website for a company offering Rolls-Royce rentals for weddings and other special events.',
         websiteLink: 'https://www.classicrolls.se',
         techStack: 'React, Node.js'
     },
@@ -19,7 +19,7 @@ export const projects = [
         name: 'Digital Sensibility',
         imagePath: '/images/sense.png',
         description:
-            'A website for improving digital security with tools.',
+            'A website for improving digital security with free and open source tools.',
         githubLink: 'https://github.com/joacimstrandvide/digital-sense',
         websiteLink: 'https://joacimstrandvide.github.io/digital-sense/',
         techStack: 'Svelte, SvelteKit'
