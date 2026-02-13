@@ -9,7 +9,7 @@
     margin: 0;
     text-transform: uppercase;
     letter-spacing: clamp(1px, 0.5vw, 2px);
-    color: var(--accent, #00ffff);
+    color: #00ffff;
 }
 
 .headermain h1 strong {
@@ -33,7 +33,9 @@
     display: flex;
     align-items: center;
     gap: clamp(0.3rem, 1vw, 0.5rem);
-    transition: transform 0.2s ease, filter 0.3s;
+    transition:
+        transform 0.2s ease,
+        filter 0.3s;
 }
 
 .menuitem:hover {
@@ -64,5 +66,29 @@
 
 .headermenu h3:hover,
 .headermenu a:hover {
-    color: var(--accent, #00ffff);
+    color: #00ffff;
+}
+
+.toast {
+    position: fixed;
+    top: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #4ade80;
+    color: white;
+    padding: 1rem;
+    border-radius: .5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    animation: slideIn 0.3s ease;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-50%) translateY(-100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(-50%) translateY(0);
+        opacity: 1;
+    }
 }

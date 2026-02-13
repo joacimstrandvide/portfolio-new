@@ -14,18 +14,18 @@ export default function Work() {
                             close collaboration with the owner.
                         </li>
                         <li>
-                            Develops and maintains a production-ready web
-                            application using React and Node.js, focusing on
-                            performance, modular architecture, and long-term
-                            maintainability.
+                            Built a production-ready website using React and
+                            Node.js with a focus on performance and structure.
                         </li>
                         <li>
-                            Responsible for deployment to production, including
-                            DNS configuration and launch.
+                            Optimized the website for faster loading times
+                            through WebP image conversion and performance
+                            testing with Lighthouse.
                         </li>
                         <li>
-                            Performs ongoing improvements, bug fixes, and
-                            provides technical support.
+                            Responsible for deployment, DNS configuration,
+                            launch, and ongoing maintenance and technical
+                            support.
                         </li>
                     </ul>
                 </div>
@@ -38,17 +38,15 @@ export default function Work() {
                     </p>
                     <ul>
                         <li>
-                            Collaborated with developers and UX designers to
-                            enhance functionality and user flows.
-                        </li>
-                        <li>
                             Developed a data export feature using React,
-                            GraphQL, and Apollo Client, enabling automated PDF
-                            generation and reducing manual work.
+                            GraphQL, and Apollo Client that automatically
+                            generates PDF reports from project data, saving time
+                            and reducing risk of errors.
                         </li>
                         <li>
-                            Participated in an agile development process using
-                            Jira and sprint planning.
+                            Collaborated with developers and UX designers in an
+                            agile development process using Jira and sprint
+                            planning.
                         </li>
                     </ul>
                 </div>
@@ -59,15 +57,14 @@ export default function Work() {
                     <p className={styled.company}>PlotEye – Internship</p>
                     <ul>
                         <li>
-                            Developed new functionality in React, including
-                            click-to-zoom features that improved map navigation
-                            and user interaction.
+                            Developed click-to-zoom functionality using React
+                            and Mapbox that improved user interaction during map
+                            navigation.
                         </li>
                         <li>
                             Worked in an agile environment with task management
                             in Trello.
                         </li>
-                        <li>Implemented map visualizations using Mapbox.</li>
                     </ul>
                 </div>
             </section>

@@ -1,6 +1,8 @@
+import { useState } from 'react'
 import styled from './Header.module.css'
 
 export default function Header({ setActiveSection }) {
+    const [showToast, setShowToast] = useState(false)
     return (
         <>
             <header className={styled.headermain}>
@@ -62,6 +64,30 @@ export default function Header({ setActiveSection }) {
                         </a>
                     </h3>
                 </div>
+                <div className={styled.menuitem}>
+                    <img
+                        src="./assets/mail.png"
+                        className={styled.icon}
+                        alt="Email"
+                    />
+                    <h3
+                        onClick={() => {
+                            navigator.clipboard.writeText(
+                                'contact@strandvide.se'
+                            )
+                            setShowToast(true)
+                            setTimeout(() => setShowToast(false), 4000)
+                        }}
+                    >
+                        Email
+                    </h3>
+                </div>
+
+                {showToast && (
+                    <div className={styled.toast}>
+                        Email copied to clipboard!
+                    </div>
+                )}
 
                 <div className={styled.menuitem}>
                     <img
