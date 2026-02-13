@@ -4,32 +4,28 @@ export default function Work() {
     return (
         <>
             <section className={styled.workMain}>
-                <h3>Work Experience</h3>
                 <div className={styled.job}>
                     <h5>June 2024 – Present</h5>
                     <h4>Frontend Developer</h4>
-                    <p className={styled.company}>
-                        Classicrolls – Contract / Ongoing Freelance
-                    </p>
+                    <p className={styled.company}>Classicrolls</p>
                     <ul>
                         <li>
-                            Redesigned the company website in close
-                            collaboration with the owner, improving user
-                            experience and performance.
+                            Led the redesign and development of the website in
+                            close collaboration with the owner.
                         </li>
                         <li>
-                            Developed the entire website independently using
-                            React, Vite, and Node.js, resulting in a more
-                            efficient system for implementing updates and
-                            reducing development time.
+                            Develops and maintains a production-ready web
+                            application using React and Node.js, focusing on
+                            performance, modular architecture, and long-term
+                            maintainability.
                         </li>
                         <li>
-                            Handled website deployment, including DNS
-                            configuration, achieving 100% uptime at launch.
+                            Responsible for deployment to production, including
+                            DNS configuration and launch.
                         </li>
                         <li>
-                            Responsible for ongoing maintenance, improvements,
-                            and technical support as needed.
+                            Performs ongoing improvements, bug fixes, and
+                            provides technical support.
                         </li>
                     </ul>
                 </div>
@@ -43,18 +39,16 @@ export default function Work() {
                     <ul>
                         <li>
                             Collaborated with developers and UX designers to
-                            improve website design and functionality, reducing
-                            bugs and improving user experience.
+                            enhance functionality and user flows.
                         </li>
                         <li>
-                            Developed a new data-export feature using React,
-                            GraphQL, Apollo Client, and Docker, enabling
-                            automatic PDF generation.
+                            Developed a data export feature using React,
+                            GraphQL, and Apollo Client, enabling automated PDF
+                            generation and reducing manual work.
                         </li>
                         <li>
-                            Worked in an Agile environment using Jira to meet
-                            sprint goals, helping ensure all sprint deliveries
-                            stayed on schedule.
+                            Participated in an agile development process using
+                            Jira and sprint planning.
                         </li>
                     </ul>
                 </div>
@@ -65,15 +59,15 @@ export default function Work() {
                     <p className={styled.company}>PlotEye – Internship</p>
                     <ul>
                         <li>
-                            Developed new website functionality using Trello
-                            tasks in an Agile workflow, improving feature
-                            delivery speed.
+                            Developed new functionality in React, including
+                            click-to-zoom features that improved map navigation
+                            and user interaction.
                         </li>
                         <li>
-                            Implemented a click-to-zoom feature using React,
-                            increasing usability.
+                            Worked in an agile environment with task management
+                            in Trello.
                         </li>
-                        <li>Worked with Mapbox for mapping functionality.</li>
+                        <li>Implemented map visualizations using Mapbox.</li>
                     </ul>
                 </div>
             </section>

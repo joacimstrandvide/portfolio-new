@@ -1,12 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 /* Ta bort skrollbaren */
 ::-webkit-scrollbar {
     display: none;
-}
-
-/* Font */
-@font-face {
-    font-family: MS Sans;
-    src: url(/assets/MS\ Sans\ Serif\ 8pt.ttf);
 }
 
 /* Färger */
@@ -32,5 +28,5 @@ body {
     padding: 0;
     overflow-x: hidden;
     background-color: var(--bg);
-    font-family: MS Sans;
+    font-family: 'Inter', sans-serif;
 }

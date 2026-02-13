@@ -41,7 +41,7 @@ export default function Projects() {
                                             target="_blank"
                                             rel="noopener noreferrer"
                                         >
-                                            Github
+                                            Source
                                             <img
                                                 src="/assets/github.png"
                                                 className={styled.icon}
@@ -55,7 +55,7 @@ export default function Projects() {
                                             target="_blank"
                                             rel="noopener noreferrer"
                                         >
-                                            Live
+                                            Website
                                             <img
                                                 src="/assets/world.png"
                                                 className={styled.icon}

@@ -10,16 +10,12 @@
     text-transform: uppercase;
     letter-spacing: clamp(1px, 0.5vw, 2px);
     color: var(--accent, #00ffff);
-    text-shadow: 0 0 clamp(3px, 1vw, 6px) var(--accent, #00ffff),
-        0 0 clamp(6px, 2vw, 12px) #007777;
 }
 
 .headermain h1 strong {
     display: block;
     font-size: clamp(1rem, 3vw, 1.25rem);
     color: #fff;
-    text-shadow: 0 0 clamp(2px, 1vw, 4px) #ff66cc,
-        0 0 clamp(4px, 2vw, 8px) #ff66cc;
     margin-top: clamp(0.3rem, 1vw, 0.5rem);
 }
 
