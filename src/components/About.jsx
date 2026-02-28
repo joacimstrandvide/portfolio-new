@@ -6,11 +6,10 @@ export default function About() {
             <section className={styled.aboutMain}>
                 <h3>About Me</h3>
                 <h4>
-                    Frontend developer from Sweden specializing in React &
-                    Svelte. I build secure, user-friendly web applications with
-                    special attention to performance. Outside of coding, I'm
-                    interested in cybersecurity, fraud prevention and contribute
-                    to OpenStreetMap.
+                    Frontend developer from Sweden with a focus on React &
+                    Svelte. I build performant, secure web applications and have
+                    a background interest in cybersecurity and fraud prevention.
+                    I also contribute to OpenStreetMap in my spare time.
                 </h4>
             </section>
         </>

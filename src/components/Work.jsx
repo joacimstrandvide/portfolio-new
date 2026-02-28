@@ -14,13 +14,11 @@ export default function Work() {
                             close collaboration with the owner.
                         </li>
                         <li>
-                            Built a production-ready website using React and
-                            Node.js with a focus on performance and structure.
-                        </li>
-                        <li>
-                            Optimized the website for faster loading times
-                            through WebP image conversion and performance
-                            testing with Lighthouse.
+                            Built and deployed a car showcase website using
+                            React and Node.js, achieving a perfect 100
+                            Lighthouse score across all desktop categories and
+                            an average of 93 on mobile through WebP optimization
+                            and performance tuning.
                         </li>
                         <li>
                             Responsible for deployment, DNS configuration,
@@ -38,15 +36,21 @@ export default function Work() {
                     </p>
                     <ul>
                         <li>
-                            Developed a data export feature using React,
-                            GraphQL, and Apollo Client that automatically
-                            generates PDF reports from project data, saving time
-                            and reducing risk of errors.
+                            Built an automated PDF export feature using React,
+                            GraphQL, and Apollo Client, reducing report
+                            generation time from up to an hour of manual copying
+                            to seconds.
                         </li>
                         <li>
-                            Collaborated with developers and UX designers in an
-                            agile development process using Jira and sprint
-                            planning.
+                            Independently drove the PDF export feature from
+                            initial research through to completion, working
+                            through complex problems and collaborating with
+                            senior developers when needed.
+                        </li>
+                        <li>
+                            Worked in an Agile Scrum environment using Jira,
+                            contributing to the full development cycle from task
+                            assignment to deployment.
                         </li>
                     </ul>
                 </div>
@@ -57,13 +61,20 @@ export default function Work() {
                     <p className={styled.company}>PlotEye – Internship</p>
                     <ul>
                         <li>
-                            Developed click-to-zoom functionality using React
-                            and Mapbox that improved user interaction during map
-                            navigation.
+                            Implemented automatic click-to-zoom functionality
+                            with React and Mapbox, enabling users to instantly
+                            focus on selected properties instead of manually
+                            zooming and panning.
                         </li>
                         <li>
-                            Worked in an agile environment with task management
-                            in Trello.
+                            Took ownership of an unfamiliar task by
+                            independently learning and delivering a UML diagram
+                            for the frontend architecture.
+                        </li>
+                        <li>
+                            Helped onboard new interns and worked in an Agile
+                            Scrum environment with daily standups and weekly
+                            retrospectives, using Trello for task management.
                         </li>
                     </ul>
                 </div>

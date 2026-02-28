@@ -13,7 +13,6 @@
 }
 
 .job:hover {
-    border-color: rgba(0, 217, 255, 0.5);
     transform: translateX(5px);
     box-shadow: -5px 0 15px rgba(0, 217, 255, 0.2);
 }

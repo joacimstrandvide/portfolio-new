@@ -24,7 +24,6 @@
 }
 
 .projectCard:hover {
-    border-color: rgba(0, 217, 255, 0.5);
     transform: translateX(5px);
     box-shadow: -5px 0 15px rgba(0, 217, 255, 0.2);
 }
@@ -113,7 +112,7 @@
 }
 
 .techTag {
-    background-color: rgba(209, 213, 219, 0.9);
+    background-color: rgba(238, 239, 241, 0.9);
     color: #000;
     padding: clamp(0.2rem, 0.6vw, 0.3rem) clamp(0.4rem, 1vw, 0.6rem);
     border-radius: clamp(3px, 1vw, 4px);

@@ -24,14 +24,5 @@ export const projects = [
         githubLink: 'https://github.com/joacimstrandvide/digital-sense',
         websiteLink: 'https://joacimstrandvide.github.io/digital-sense/',
         techStack: 'Svelte, SvelteKit'
-    },
-    {
-        name: 'Country Lookup',
-        imagePath: '/images/country.webp',
-        description:
-            'Simple country lookup tool using a API.',
-        githubLink: 'https://github.com/joacimstrandvide/CountryAPI',
-        websiteLink: 'https://joacimstrandvide.github.io/CountryAPI',
-        techStack: 'HTML, CSS, JavaScript, API'
     }
 ]
