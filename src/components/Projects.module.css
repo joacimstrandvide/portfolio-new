@@ -23,10 +23,6 @@
     gap: clamp(0.75rem, 2vw, 1rem);
 }
 
-.projectCard:hover {
-    transform: translateX(5px);
-    box-shadow: -5px 0 15px rgba(0, 217, 255, 0.2);
-}
 
 @media (min-width: 900px) {
     .projectCard {

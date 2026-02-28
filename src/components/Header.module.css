@@ -68,27 +68,3 @@
 .headermenu a:hover {
     color: #00ffff;
 }
-
-.toast {
-    position: fixed;
-    top: 2rem;
-    left: 50%;
-    transform: translateX(-50%);
-    background: #4ade80;
-    color: white;
-    padding: 1rem;
-    border-radius: .5rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-    animation: slideIn 0.3s ease;
-}
-
-@keyframes slideIn {
-    from {
-        transform: translateX(-50%) translateY(-100px);
-        opacity: 0;
-    }
-    to {
-        transform: translateX(-50%) translateY(0);
-        opacity: 1;
-    }
-}

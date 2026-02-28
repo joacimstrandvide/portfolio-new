@@ -9,12 +9,6 @@
         rgba(0, 217, 255, 0.05),
         rgba(255, 0, 255, 0.05)
     );
-    transition: all 0.3s ease;
-}
-
-.job:hover {
-    transform: translateX(5px);
-    box-shadow: -5px 0 15px rgba(0, 217, 255, 0.2);
 }
 
 .job h5 {

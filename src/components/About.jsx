@@ -7,9 +7,10 @@ export default function About() {
                 <h3>About Me</h3>
                 <h4>
                     Frontend developer from Sweden with a focus on React &
-                    Svelte. I build performant, secure web applications and have
-                    a background interest in cybersecurity and fraud prevention.
-                    I also contribute to OpenStreetMap in my spare time.
+                    Svelte. I build web applications with a focus on performance
+                    and security. Beyond coding, i have a strong interest in
+                    cybersecurity and fraud prevention. I also contribute to
+                    OpenStreetMap in my spare time.
                 </h4>
             </section>
         </>

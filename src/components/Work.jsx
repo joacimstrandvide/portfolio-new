@@ -21,9 +21,9 @@ export default function Work() {
                             and performance tuning.
                         </li>
                         <li>
-                            Responsible for deployment, DNS configuration,
-                            launch, and ongoing maintenance and technical
-                            support.
+                            Handled the full deployment pipeline including DNS
+                            configuration and launch, and continue to provide
+                            ongoing maintenance and technical support.
                         </li>
                     </ul>
                 </div>
@@ -36,16 +36,16 @@ export default function Work() {
                     </p>
                     <ul>
                         <li>
+                            Independently drove the PDF export feature from
+                            initial research through to completion, working
+                            through problems and collaborating with senior
+                            developers when needed.
+                        </li>
+                        <li>
                             Built an automated PDF export feature using React,
                             GraphQL, and Apollo Client, reducing report
                             generation time from up to an hour of manual copying
                             to seconds.
-                        </li>
-                        <li>
-                            Independently drove the PDF export feature from
-                            initial research through to completion, working
-                            through complex problems and collaborating with
-                            senior developers when needed.
                         </li>
                         <li>
                             Worked in an Agile Scrum environment using Jira,
@@ -67,9 +67,9 @@ export default function Work() {
                             zooming and panning.
                         </li>
                         <li>
-                            Took ownership of an unfamiliar task by
-                            independently learning and delivering a UML diagram
-                            for the frontend architecture.
+                            Independently learned and delivered a UML diagram
+                            for the frontend architecture with no prior
+                            experience of UML.
                         </li>
                         <li>
                             Helped onboard new interns and worked in an Agile
