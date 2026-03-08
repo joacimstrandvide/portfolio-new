@@ -6,59 +6,56 @@ export default function Work() {
             <section className={styled.workMain}>
                 <div className={styled.job}>
                     <h5>June 2024 – Present</h5>
-                    <h4>Frontend Developer</h4>
-                    <p className={styled.company}>Classicrolls</p>
+                    <h4>Freelance Frontend Developer</h4>
+                    <p className={styled.company}>Classicrolls.se</p>
                     <ul>
                         <li>
-                            Led the redesign and development of the website in
-                            close collaboration with the owner.
+                            Collaborated directly with the owner to redesign and
+                            develop the website end-to-end.
                         </li>
                         <li>
-                            Built and deployed a car showcase website using
-                            React and Node.js, achieving a perfect 100
-                            Lighthouse score across all desktop categories and
-                            an average of 93 on mobile through WebP optimization
-                            and performance tuning.
+                            Built the website using React and Node.js, achieving
+                            a perfect 100 Lighthouse score across all desktop
+                            categories and an average of 93 on mobile through
+                            WebP images, lazy loading and performance
+                            improvements.
                         </li>
                         <li>
-                            Handled the full deployment pipeline including DNS
-                            configuration and launch, and continue to provide
-                            ongoing maintenance and technical support.
+                            Handled deployment including DNS configuration and
+                            uptime, and continue to provide ongoing maintenance
+                            and technical support.
                         </li>
                     </ul>
                 </div>
 
                 <div className={styled.job}>
                     <h5>January 2024 – June 2024</h5>
-                    <h4>Frontend Developer</h4>
-                    <p className={styled.company}>
-                        Nilo Collaborations – Internship
-                    </p>
+                    <h4>Frontend Developer Intern</h4>
+                    <p className={styled.company}>Nilo Collaborations</p>
                     <ul>
                         <li>
                             Independently drove the PDF export feature from
-                            initial research through to completion, working
-                            through problems and collaborating with senior
-                            developers when needed.
+                            start through to completion, working through
+                            problems and collaborating with senior developers
+                            when needed.
                         </li>
                         <li>
                             Built an automated PDF export feature using React,
-                            GraphQL, and Apollo Client, reducing report
+                            GraphQL, Apollo Client and Docker, reducing report
                             generation time from up to an hour of manual copying
                             to seconds.
                         </li>
                         <li>
-                            Worked in an Agile Scrum environment using Jira,
-                            contributing to the full development cycle from task
-                            assignment to deployment.
+                            Worked in an Agile Scrum environment using Jira for
+                            task managment.
                         </li>
                     </ul>
                 </div>
 
                 <div className={styled.job}>
                     <h5>August 2023 – October 2023</h5>
-                    <h4>Frontend Developer</h4>
-                    <p className={styled.company}>PlotEye – Internship</p>
+                    <h4>Frontend Developer Intern</h4>
+                    <p className={styled.company}>PlotEye</p>
                     <ul>
                         <li>
                             Implemented automatic click-to-zoom functionality
@@ -67,14 +64,12 @@ export default function Work() {
                             zooming and panning.
                         </li>
                         <li>
-                            Independently learned and delivered a UML diagram
-                            for the frontend architecture with no prior
-                            experience of UML.
+                            Created frontend architecture UML documentation for
+                            the website.
                         </li>
                         <li>
-                            Helped onboard new interns and worked in an Agile
-                            Scrum environment with daily standups and weekly
-                            retrospectives, using Trello for task management.
+                            Mentored new interns on codebase and workflows,
+                            helping reduce their onboarding time.
                         </li>
                     </ul>
                 </div>

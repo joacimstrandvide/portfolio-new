@@ -7,16 +7,8 @@
 
 /* Färger */
 :root {
-    --bg: hsl(37, 13%, 88%);
-    --text: hsl(0, 0%, 0%);
-}
-
-/* Mörkt läge */
-@media (prefers-color-scheme: dark) {
-    :root {
-        --bg: hsl(330, 4%, 10%);
-        --text: hsl(43, 23%, 94%);
-    }
+    --bg: hsl(330, 4%, 10%);
+    --text: hsl(43, 23%, 94%);
 }
 
 html {
