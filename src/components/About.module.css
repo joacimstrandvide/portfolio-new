@@ -15,4 +15,5 @@
     font-size: clamp(1rem, 3.5vw, 1rem);
     line-height: 1.6;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
 }

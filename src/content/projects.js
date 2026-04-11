@@ -23,6 +23,6 @@ export const projects = [
             'A curated library of privacy focused, open source alternatives to common software. Built to promote user privacy by organizing tools across categories.',
         githubLink: 'https://github.com/joacimstrandvide/digital-sense',
         websiteLink: 'https://joacimstrandvide.github.io/digital-sense/',
-        techStack: 'Svelte, SvelteKit'
+        techStack: 'Svelte, SvelteKit, CI/CD'
     }
 ]

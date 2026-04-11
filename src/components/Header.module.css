@@ -9,7 +9,7 @@
     margin: 0;
     text-transform: uppercase;
     letter-spacing: clamp(1px, 0.5vw, 2px);
-    color: #ff5a5a;
+    color: #4a90d9;
 }
 
 .headermain h1 strong {
@@ -67,5 +67,5 @@
 
 .headermenu h3:hover,
 .headermenu a:hover {
-    color: #ff5a5a;
+    color: #4a90d9;
 }

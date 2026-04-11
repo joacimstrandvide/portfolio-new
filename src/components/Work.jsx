@@ -10,20 +10,20 @@ export default function Work() {
                     <p className={styled.company}>Classicrolls.se</p>
                     <ul>
                         <li>
-                            Collaborated directly with the owner to redesign and
-                            develop the website end-to-end.
+                            Redesigned and developed the website from scratch
+                            using React and Node.js in collaboration with the
+                            owner, achieving Lighthouse scores of 100/100
+                            (desktop) and 93/100 (mobile).
                         </li>
                         <li>
-                            Built the website using React and Node.js, achieving
-                            a perfect 100 Lighthouse score across all desktop
-                            categories and an average of 93 on mobile through
-                            WebP images, lazy loading and performance
-                            improvements.
+                            Migrated from a website builder to a custom-built
+                            solution using WebP images, lazy loading, and
+                            components, reducing load time by over 50%.
                         </li>
                         <li>
                             Handled deployment including DNS configuration and
-                            uptime, and continue to provide ongoing maintenance
-                            and technical support.
+                            continue to provide ongoing maintenance and
+                            technical support.
                         </li>
                     </ul>
                 </div>
@@ -34,20 +34,21 @@ export default function Work() {
                     <p className={styled.company}>Nilo Collaborations</p>
                     <ul>
                         <li>
-                            Independently drove the PDF export feature from
-                            start through to completion, working through
-                            problems and collaborating with senior developers
-                            when needed.
+                            Built a PDF export feature using React, GraphQL,
+                            Apollo Client, and Docker, rendering multiple data
+                            types including tables and curve graphs, reducing
+                            manual processing time by over 95%.
                         </li>
                         <li>
-                            Built an automated PDF export feature using React,
-                            GraphQL, Apollo Client and Docker, reducing report
-                            generation time from up to an hour of manual copying
-                            to seconds.
+                            Took ownership of the full feature lifecycle
+                            independently, from data fetching and layout to
+                            styling and final delivery over several weeks,
+                            working in an Agile Scrum environment with Jira.
                         </li>
                         <li>
-                            Worked in an Agile Scrum environment using Jira for
-                            task managment.
+                            Collaborated with a fellow intern on shared
+                            debugging tasks, suggesting approaches and working
+                            through problems together.
                         </li>
                     </ul>
                 </div>
@@ -58,18 +59,20 @@ export default function Work() {
                     <p className={styled.company}>PlotEye</p>
                     <ul>
                         <li>
-                            Implemented automatic click-to-zoom functionality
-                            with React and Mapbox, enabling users to instantly
-                            focus on selected properties instead of manually
-                            zooming and panning.
+                            Implemented a "click to zoom" feature using React
+                            and Mapbox, allowing users to instantly focus on
+                            selected properties, and merged it into the main
+                            branch independently.
                         </li>
                         <li>
-                            Created frontend architecture UML documentation for
-                            the website.
+                            Learned and delivered frontend architecture UML
+                            documentation, providing the team with a structured
+                            overview of the codebase.
                         </li>
                         <li>
-                            Mentored new interns on codebase and workflows,
-                            helping reduce their onboarding time.
+                            Helped onboard multiple waves of new interns into
+                            the codebase and Agile workflow, including daily
+                            standups and weekly retrospectives.
                         </li>
                     </ul>
                 </div>
