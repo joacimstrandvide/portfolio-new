@@ -14,13 +14,13 @@ export const projects = [
             'Built an interactive map application with full CRUD functionality for managing points of interest across Sweden. Users can add, edit, and delete markers with real-time updates.',
         githubLink: 'https://github.com/joacimstrandvide/swedishmarkersvite',
         websiteLink: 'https://joacimstrandvide.github.io/swedishmarkersvite/',
-        techStack: 'React, Leaflet, Node.js, Firebase'
+        techStack: 'React, Leaflet, Node.js, Firebase, CI/CD'
     },
     {
         name: 'Digital Sensibility',
         imagePath: '/images/sense.png',
         description:
-            'A curated library of privacy focused, open source alternatives to common software. Built to promote user privacy by organizing tools across categories.',
+            'A curated library of privacy focused and open source alternatives to common software. Built to promote user privacy by organizing tools across categories.',
         githubLink: 'https://github.com/joacimstrandvide/digital-sense',
         websiteLink: 'https://joacimstrandvide.github.io/digital-sense/',
         techStack: 'Svelte, SvelteKit, CI/CD'

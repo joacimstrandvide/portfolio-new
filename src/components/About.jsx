@@ -8,8 +8,8 @@ export default function About() {
                 <h4>
                     Frontend developer from Sweden, mostly working with React
                     and Svelte. I've built things for real clients and
-                    companies. Outside of work i have a strong interest in
-                    cybersecurity and fraud prevention.
+                    companies. I also have a strong interest in cybersecurity
+                    and fraud prevention.
                 </h4>
             </section>
         </>
