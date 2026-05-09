@@ -2,8 +2,7 @@ export const projects = [
     {
         name: 'Classic Rolls',
         imagePath: '/images/rolls.webp',
-        description:
-            'Website for a luxury Rolls-Royce rental company.',
+        description: 'Website for a luxury Rolls-Royce rental company.',
         websiteLink: 'https://www.classicrolls.se',
         techStack: 'React, Node.js'
     },
@@ -11,7 +10,7 @@ export const projects = [
         name: 'SwedishMarkers',
         imagePath: '/images/markers.webp',
         description:
-            'Built an interactive map application with full CRUD functionality for managing points of interest across Sweden. Users can add, edit, and delete markers with real-time updates.',
+            'Interactive map for exploring and managing points of interest across Sweden, with full CRUD and real-time updates via Firebase.',
         githubLink: 'https://github.com/joacimstrandvide/swedishmarkersvite',
         websiteLink: 'https://joacimstrandvide.github.io/swedishmarkersvite/',
         techStack: 'React, Leaflet, Node.js, Firebase, CI/CD'
@@ -20,7 +19,7 @@ export const projects = [
         name: 'Digital Sensibility',
         imagePath: '/images/sense.png',
         description:
-            'A curated library of privacy focused and open source alternatives to common software. Built to promote user privacy by organizing tools across categories.',
+            'A curated library of privacy-respecting, open-source alternatives to everyday software, organized by category to make switching easy',
         githubLink: 'https://github.com/joacimstrandvide/digital-sense',
         websiteLink: 'https://joacimstrandvide.github.io/digital-sense/',
         techStack: 'Svelte, SvelteKit, CI/CD'

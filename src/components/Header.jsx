@@ -8,44 +8,6 @@ export default function Header({ setActiveSection }) {
                     Joacim Strandvide <strong>Frontend Developer</strong>
                 </h1>
             </header>
-
-            <menu className={styled.headermenu}>
-                <div
-                    className={styled.menuitem}
-                    onClick={() => setActiveSection('about')}
-                >
-                    <img
-                        src="./assets/about.png"
-                        className={styled.icon}
-                        alt="About"
-                    />
-                    <h3>About Me</h3>
-                </div>
-
-                <div
-                    className={styled.menuitem}
-                    onClick={() => setActiveSection('work')}
-                >
-                    <img
-                        src="./assets/work.png"
-                        className={styled.icon}
-                        alt="Work"
-                    />
-                    <h3>Work</h3>
-                </div>
-
-                <div
-                    className={styled.menuitem}
-                    onClick={() => setActiveSection('projects')}
-                >
-                    <img
-                        src="./assets/projects.png"
-                        className={styled.icon}
-                        alt="Projects"
-                    />
-                    <h3>Projects</h3>
-                </div>
-            </menu>
         </>
     )
 }

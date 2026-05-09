@@ -6,6 +6,14 @@ export default function Projects() {
     const [enlargedImg, setEnlargedImg] = useState(null)
     return (
         <>
+            <h3 className={styled.sectionHeader}>
+                <img
+                    src="./assets/projects.png"
+                    className={styled.icon}
+                    alt="Projects"
+                />
+                Projects
+            </h3>
             {enlargedImg && (
                 <div
                     className={styled.modalOverlay}
@@ -27,7 +35,9 @@ export default function Projects() {
                                 alt={project.name}
                                 className={styled.projectImage}
                                 loading="lazy"
-                                onClick={() => setEnlargedImg(project.imagePath)}
+                                onClick={() =>
+                                    setEnlargedImg(project.imagePath)
+                                }
                             />
                         </div>
 
