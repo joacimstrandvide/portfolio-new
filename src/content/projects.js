@@ -2,7 +2,7 @@ export const projects = [
     {
         name: 'Classic Rolls',
         imagePath: '/images/rolls.webp',
-        description: 'Website for a luxury Rolls-Royce rental company.',
+        description: 'Website for a luxury Rolls-Royce rental company I developed as a freelance job.',
         websiteLink: 'https://www.classicrolls.se',
         techStack: 'React, Node.js'
     },
@@ -17,9 +17,9 @@ export const projects = [
     },
     {
         name: 'Digital Sensibility',
-        imagePath: '/images/sense.png',
+        imagePath: '/images/sense.webp',
         description:
-            'A curated library of privacy-respecting, open-source alternatives to everyday software, organized by category to make switching easy',
+            'A curated library of privacy-respecting, open-source alternatives to everyday software, organized by category to make switching easy.',
         githubLink: 'https://github.com/joacimstrandvide/digital-sense',
         websiteLink: 'https://joacimstrandvide.github.io/digital-sense/',
         techStack: 'Svelte, SvelteKit, CI/CD'
