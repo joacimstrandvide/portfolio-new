@@ -16,6 +16,15 @@ export const projects = [
         techStack: 'React, Leaflet, Node.js, Firebase, CI/CD'
     },
     {
+        name: 'Markdown Blog',
+        imagePath: '/images/markdown.webp',
+        description:
+            'A blog using markdown and Jekyll.',
+        githubLink: 'https://github.com/joacimstrandvide/markdown-blog',
+        websiteLink: 'https://joacimstrandvide.github.io/markdown-blog/',
+        techStack: 'HTML, CSS, markdown, Jekyll'
+    },
+    {
         name: 'Digital Sensibility',
         imagePath: '/images/sense.webp',
         description:

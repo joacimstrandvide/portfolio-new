@@ -23,11 +23,11 @@ export default function About() {
                         About Me
                     </h3>
                     <h4>
-                        Frontend developer from Sweden. I started programming in
+                        Frontend developer from Sweden. I began programming in
                         2015 and mostly work with React and Svelte these days. I
-                        enjoy building useful projects, especially anything
-                        involving maps and data. I also have a longstanding
-                        interest in cybersecurity and privacy.
+                        enjoy building projects involving maps and data.
+                        I also have a longstanding interest in cybersecurity,
+                        privacy and open source.
                     </h4>
                 </div>
                 <div className={styled.emailButtonWrapper}>

@@ -1,14 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-/* Ta bort skrollbaren */
-::-webkit-scrollbar {
-    display: none;
-}
-
 /* Färger */
 :root {
     --bg: hsl(330, 4%, 10%);
     --text: hsl(43, 23%, 94%);
+    --sb-track-color: #232e33;
+    --sb-thumb-color: #4a90d9;
+    --sb-size: 10px;
+}
+
+::-webkit-scrollbar {
+    width: var(--sb-size);
+}
+
+::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+    border-radius: 6px;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+    body {
+        scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+    }
 }
 
 html {
